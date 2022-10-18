@@ -1,0 +1,684 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ------------------ tambahan CSS ------------------ */
+html,
+.background {
+  background-image: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.85) 100%
+    ),
+    url(/img/background.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 100%;
+  background-position: center, center;
+}
+
+header {
+  margin-top: 49px;
+  margin-bottom: 56px;
+}
+
+header p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #0b57a7;
+}
+
+.text-progress {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #000000;
+}
+
+.text-progress-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #0b57a7;
+}
+
+.text-progress-2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #959595;
+}
+
+/* ------ register section ------ */
+.register p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 39px !important;
+}
+
+.form-register .form-control {
+  width: 318px;
+  border-width: 0 0 1px 0 !important;
+  border-color: #000000;
+  border-radius: 0;
+  background: none !important;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.btn-create {
+  color: white !important;
+  width: 208px;
+  height: 36px;
+  background-color: #0b57a7 !important;
+  border-radius: 5px !important;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+}
+/* ------ register section ------ */
+
+/* ------ event section ------ */
+.event {
+  margin-top: 26px;
+  margin-bottom: 50px;
+}
+
+.event p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.prog-info {
+  margin-top: 73px;
+}
+
+.prog-bar {
+  margin-top: 100px;
+  border-radius: 6px;
+  height: 12px;
+}
+
+.bg-YOU_PICK_A_NAME {
+  background-color: #09509c !important;
+}
+
+.rounded-first {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.rounded-last {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+/* ------ event section ------ */
+
+/* ------ count section ------ */
+.count {
+  margin-top: 0px !important;
+  margin-bottom: 54px !important;
+}
+
+.count p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 35px !important;
+}
+
+.count h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 94px;
+  color: #393939;
+  margin-bottom: 2px !important;
+}
+
+.count h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #393939;
+}
+/* ------ count section ------ */
+
+/* ------ article section ------ */
+.article .title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px !important;
+}
+
+.article h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0b57a7;
+  margin-bottom: 10px !important;
+}
+
+.article h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.article p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600 !important;
+  font-size: 14px;
+  line-height: 19px;
+}
+/* ------ article section ------ */
+
+/* ------ invite section ------ */
+.invite h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.invite p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form-refer {
+  width: 387px !important;
+  height: 41px;
+
+  background: #e4e4e4;
+  border-radius: 4px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.btn-form-refer {
+  width: 106px;
+  height: 41px;
+
+  background: #cdcdcd;
+  border-radius: 4px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #858585;
+}
+
+.btn-form-refer:hover {
+  color: #3b3b3b;
+}
+
+.invite .or {
+  padding-top: 30%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.btn-refer {
+  width: 203px;
+  height: 41px;
+
+  background: #0b57a7;
+  border-radius: 4px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.btn-refer:hover {
+  color: rgb(199, 199, 199);
+}
+/* ------ invite section ------ */
+
+/* ------ my-progress section ------ */
+:root {
+  --line-border-fill: #0b57a7;
+  --line-border-empty: #c5c5c5;
+}
+
+.my-progress h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.my-progress p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* .progresss-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.progresss-container::before {
+  content: "";
+  background-color: var(--line-border-empty);
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 80%;
+  z-index: 0;
+  transition: 0.4s ease;
+}
+
+.progresss-container::after {
+  content: "";
+  background-color: var(--line-border-empty);
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 80%;
+  z-index: 0;
+  transition: 0.4s ease;
+}
+
+.progresss {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  height: 4px;
+  z-index: 0;
+  transition: 0.4s ease;
+} */
+
+.custom-progress-bar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: auto;
+  justify-content: flex-start;
+}
+
+.custom-progress-bar-bg {
+  content: "";
+  /* background-color: var(--line-border-empty); */
+  background-color: #cfcfcf;
+  position: absolute;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  z-index: 0;
+  transition: 0.4s ease;
+}
+
+.custom-progress-bar {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  left: 0;
+  height: 5px;
+  z-index: 1;
+  transition: width 3s ease;
+}
+
+.custom-progress-images {
+  /* position: absolute; */
+  min-width: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.custom-progress-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-width: 20%;
+  /* min-width: 254.39px; */
+  padding-top: 40px;
+}
+
+/* ------ my-progress section ------ */
+
+/* ------ package section ------ */
+.package {
+  margin-top: 50px;
+}
+
+.package h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.package li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: white;
+}
+
+/* .package span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+} */
+
+.bronze {
+  background-image: linear-gradient(#cd7f32, #af6f30) !important;
+  border-radius: 10px !important;
+  width: 425px;
+  height: 75px;
+}
+
+.silver {
+  background-image: linear-gradient(#c0c0c0, #a9a9a9) !important;
+  border-radius: 10px !important;
+  width: 425px;
+  height: 75px;
+}
+
+.gold {
+  background-image: linear-gradient(#e8b923, #cca526) !important;
+  border-radius: 10px !important;
+  width: 425px;
+  height: 75px;
+}
+
+.platinum {
+  background-image: linear-gradient(#e5e4e2, #c3c3c3) !important;
+  border-radius: 10px !important;
+  width: 425px;
+  height: 75px;
+}
+/* ------ package section ------ */
+
+footer {
+  margin-top: 54px;
+  margin-bottom: 50px;
+}
+
+footer .info {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0b57a7;
+}
+
+/* ------ responsive desgin ------ */
+@media (max-width: 776px) {
+  html,
+  .background {
+    background-image: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        rgba(255, 255, 255, 0.85) 100%
+      ),
+      url(/img/bg-mobile.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    background-position: center, center;
+  }
+
+  .event p {
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  .event img {
+    width: 100px;
+    height: 95px;
+  }
+
+  .count {
+    margin-top: 90px !important;
+    margin-bottom: 40px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  html,
+  .background {
+    background-image: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        rgba(255, 255, 255, 0.85) 100%
+      ),
+      url(/img/bg-mobile.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    background-position: center, center;
+  }
+
+  header {
+    margin-top: 50px;
+    margin-bottom: 37px;
+  }
+
+  .register p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 25px !important;
+  }
+
+  .form-register .form-control {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .btn-create {
+    width: 154px;
+
+    font-size: 14px !important;
+  }
+
+  .event {
+    margin-top: 14px;
+    margin-bottom: 30px;
+  }
+
+  .event p {
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  .event img {
+    width: 81px;
+    height: 76px;
+  }
+
+  .count {
+    margin-top: 90px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .count p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 29px !important;
+  }
+
+  .count h1 {
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 1px !important;
+  }
+
+  .count h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .prog-info {
+    margin-top: 62px;
+  }
+
+  .prog-bar {
+    margin-top: 92px;
+  }
+
+  .article .title {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 24px !important;
+  }
+
+  .article h5 {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .article h4 {
+    padding: 0px 10px;
+    border-radius: 5px;
+  }
+
+  .article p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .article img {
+    width: 77px;
+    height: 58px;
+  }
+
+  .package {
+    margin-top: 14px;
+  }
+
+  .bronze {
+    width: 100%;
+    height: 63px;
+  }
+
+  .silver {
+    width: 100%;
+    height: 63px;
+  }
+
+  .gold {
+    width: 100%;
+    height: 63px;
+  }
+
+  .platinum {
+    width: 100%;
+    height: 63px;
+  }
+
+  .package li {
+    font-size: 8px;
+    line-height: 11px;
+    color: white;
+  }
+
+  .package h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .package img {
+    width: 45px;
+    height: 59px;
+  }
+
+  footer {
+    margin-top: 45px;
+    margin-bottom: 46px;
+  }
+
+  footer .info {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  footer img {
+    height: 18px;
+    width: 18px;
+  }
+}
+/* ------ responsive desgin ------ */
+
+/* ------------------ tambahan CSS ------------------ */
+.cursor-disabled {
+  cursor: not-allowed;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
